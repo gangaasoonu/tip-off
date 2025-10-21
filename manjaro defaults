@@ -1,0 +1,26 @@
+bit tired using Omarchy, Hyprland
+
+un-installed Omarchy . It took 17 minutes to install
+
+Back to Manjaro 25 with Libre Office. I hae ditched Windows 10, no more dual boot
+These are the steps post-install 
+# sudo pacman -S xfce4 # to get xFCE 4.2
+# sudo pacman -S vim neofetch ncdu wine winetricks yt-dlp ibus 
+# chuck wine-mono wine_gecko 
+# chsh # enter root password and choose /usr/bin/bash for 2 reasons.... easy to get bash help on stackoerflow than zsh, also zsh auto complete, I am not able to use
+# xfce-termimal change size to 133X11
+# firefox extensions: noscript, epub reader, copy all tabs,  above all ublock origin
+# wine for irfanview .. pain is, double click on images from thunar won't work. MUST DRAG & DROP IMAGES into irfanview....
+# Instructions either from https://linuxconfig.org/install-wine-on-manjaro or https://idroot.us/install-wine-manjaro/
+
+# Add below to ~/.bashrc
+# Enable vlc to run as root
+sudo sed -i 's/geteuid/getppid/' /usr/bin/vlc
+
+sublime 
+curl -O https://download.sublimetext.com/sublimehq-pub.gpg && sudo pacman-key --add sublimehq-pub.gpg && sudo pacman-key --lsign-key 8A8F901A && rm sublimehq-pub.gpg
+echo -e "\n[sublime-text]\nServer = https://download.sublimetext.com/arch/stable/x86_64" | sudo tee -a /etc/pacman.conf
+sudo pacman -Sy sublime-text
+
+
+# Add SHell functions to .bashrc
