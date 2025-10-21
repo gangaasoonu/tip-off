@@ -1,0 +1,63 @@
+https://www.tecmint.com/empty-delete-file-content-linux/
+empty a file 
+> <filename>
+
+
+huge directories
+du -ahsS  | sort -n -r | head -n 5
+
+huge file sizes only 
+find -type f -exec du -Sh {} + | sort -rh | head -n 5
+
+Markdown basics https://www.markdownguide.org/basic-syntax/
+
+* and _ are interchangable, use either for same effect
+
+> for block quote
+>
+>> nested blockquote
+** for bold
+* and space for italic words
+*word* to make letters in a word italic
+***word*** for bold + italic
+
+
+<number period space> for numbered lists and nested too
+<hyphen space > for unordered lists   #  hyphen(-), asterisks (*), or plus signs (+) they all work   use \ to begin list with a number
+
+URL with tooltip or title  If URL contains ( or ) use %28 to escape it 
+[text](url "tooltip")
+<> to turn  text into URL
+Image [name](url "tooltip")
+
+To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.
+
+[![An old rock in the desert](/assets/images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://avatars.githubusercontent.com/u/151925446?v=4)
+
+
+
+`` for Code   to escape double backquote ``
+
+horizontal lines 3 or more *** or ____ or ---
+
+
+
+I love supporting the **[EFF](https://eff.org)**.
+This is the *[Markdown Guide](https://www.markdownguide.org)*.
+See the section on [`code`](#code).
+
+Reference Style Links
+
+[hobbit-hole][1]
+
+    [1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle
+    [1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit lifestyles"
+    [1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle 'Hobbit lifestyles'
+    [1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle (Hobbit lifestyles)
+    [1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
+    [1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> 'Hobbit lifestyles'
+    [1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> (Hobbit lifestyles)
+
+
+
+
