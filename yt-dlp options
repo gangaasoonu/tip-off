@@ -1,0 +1,32 @@
+Thx to https://www.tecmint.com/download-mp3-song-from-youtube-videos/
+
+install yt-dlp using pacman, not as pip3
+-i to read from file 
+-a to ignore errors and continue to next URL
+-U to update
+download a video as an mp3 track, we need the following two options:
+
+    --extract-audio (short option -x) – Convert video files to audio-only files.
+    --audio-format  – specifies the audio format in which the file will be downloaded.
+
+The supported audio formats are “best“, “aac“, “vorbis“, “mp3“, “m4a“, “opus“, or “wav“; “best” is set by default.
+
+--embed-thumbnail to get thumbnail
+
+only needed one's in a Playlist
+
+
+    --playlist-start NUMBER – Playlist video to start at (default is 1).
+    --playlist-end NUMBER – Playlist video to end at (default is last).
+
+Where "NUMBER" is the starting and ending point of the playlist. The command below will download the first 5 songs from the given playlist:
+
+$ yt-dlp -x --audio-format mp3 --playlist-start 1 --playlist-end 5 https://www.youtube.com/playlist?list=PL9LUD5Kp855InMnKTaRy3LH3kTIYJyBzs
+
+Download Multiple MP3 from Youtube Playlist
+
+download partly uses ffmpeg, takes hell a lot of time, not worth..
+
+now, I need some hack to choose the quality.... viz., run yt-dlp -F, read & choose the optimal one... then run yt-dlp -f <quality indicator>
+
+
