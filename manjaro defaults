@@ -6,6 +6,17 @@ Back to Manjaro 25 with Libre Office. I hae ditched Windows 10, no more dual boo
 These are the steps post-install 
 # sudo pacman -S xfce4 # to get xFCE 4.2
 # sudo pacman -S vim neofetch ncdu wine winetricks yt-dlp ibus 
+
+zenity needed for winetricks dialog of install/uninstall ....
+
+sharex
+7zip
+
+kannada typing
+sudo pacman -S ibus m17n-db m17n-lib  .. whateer it takes to get m17n baraha style kannada in ibus preferences..
+
+krita
+
 # chuck wine-mono wine_gecko 
 # chsh # enter root password and choose /usr/bin/bash for 2 reasons.... easy to get bash help on stackoerflow than zsh, also zsh auto complete, I am not able to use
 # xfce-termimal change size to 133X11
@@ -24,3 +35,35 @@ sudo pacman -Sy sublime-text
 
 
 # Add SHell functions to .bashrc
+
+
+
+https://www.tecmint.com/run-vlc-media-player-as-root-in-linux/
+How to Install and Run VLC Media Player as Root in Linux
+https://www.tecmint.com/find-top-large-directories-and-files-sizes-in-linux/
+How to Find Top Directories and Files (Disk Space) in Linux
+https://www.tecmint.com/compare-find-difference-between-two-directories-in-linux/
+How to Find Difference Between Two Directories Using Diff and Meld Tools
+https://www.tecmint.com/view-colored-man-pages-in-linux/
+How to View or Display Colored Man Pages in Linux
+https://www.tecmint.com/commands-to-collect-system-and-hardware-information-in-linux/
+10 Commands to Collect System and Hardware Info in Linux
+https://www.tecmint.com/delete-huge-files-in-linux/
+How to Delete HUGE (100-200GB) Files in Linux
+https://www.tecmint.com/powerline-plugin-for-vim/
+Powerline - Enhance Vim and Bash Shell Prompts in Linux
+https://www.tecmint.com/check-user-in-linux/
+12 Commands to Find User Account and Login Info in Linux
+https://www.tecmint.com/remember-linux-commands/
+6 Essential Tools to Help You Remember Linux Commands
+https://www.tecmint.com/lolcat-color-output-linux-terminal/
+Lolcat - Make Your Linux Terminal More Colorful and Fun
+https://www.tecmint.com/linux-networking-commands/
+22 Must-Know Linux Networking Commands for Sysadmins
+https://www.tecmint.com/linux-tree-command-examples/
+Linux ‘tree Command’ Usage Examples for Beginners
+https://idroot.us/install-wine-manjaro/
+How To Install Wine on Manjaro - idroot
+https://linuxconfig.org/install-wine-on-manjaro
+Install Wine on Manjaro: Step-by-Step Guide
+
