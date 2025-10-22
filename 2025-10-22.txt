@@ -1,0 +1,3 @@
+# Write Markdown in vim, push it to Github, Blogger, Github Gist (website)  ?? https://github.com/mattn/vim-gist
+# Create categories in kannada wiktionary for mechanical, electrical, chemistry, physics, computer science, Web/Mobile/Desktop App Usage
+# Android Basics
